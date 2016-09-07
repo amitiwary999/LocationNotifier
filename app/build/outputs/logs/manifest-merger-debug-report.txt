@@ -1,0 +1,194 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml:3:5-47
+		INJECTED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml
+		INJECTED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml
+		INJECTED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml
+		INJECTED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml:4:5-79
+	android:name
+		ADDED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml:4:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.2.0/AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml:6:22-64
+application
+ADDED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml:8:5-25:19
+MERGED from [com.android.support:appcompat-v7:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-contextmanager:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-contextmanager/9.2.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-location:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.2.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-places:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.2.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-base:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.2.0/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-base:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml:11:9-41
+	android:supportsRtl
+		ADDED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml:12:9-35
+	android:allowBackup
+		ADDED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml:10:9-37
+	android:theme
+		ADDED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.example.amit.locationotifier.MainActivity
+ADDED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml:14:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml:18:27-74
+meta-data#com.google.android.awareness.API_KEY
+ADDED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml:21:9-24:15
+	android:value
+		ADDED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml:23:13-68
+	android:name
+		ADDED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml:22:13-64
+uses-sdk
+INJECTED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-vector-drawable:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.1/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-contextmanager:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-contextmanager/9.2.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-location:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.2.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-places:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.2.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-maps:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.2.0/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/AndroidManifest.xml:21:5-23:54
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.1.1] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml
+		INJECTED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml
+		INJECTED from /home/amit/phimpme-android/Locationotifier/app/src/main/AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/AndroidManifest.xml:20:9-22:45
+MERGED from [com.google.android.gms:play-services-base:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/AndroidManifest.xml:20:9-22:45
+MERGED from [com.google.android.gms:play-services-base:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/AndroidManifest.xml:20:9-22:45
+MERGED from [com.google.android.gms:play-services-base:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.0/AndroidManifest.xml:22:13-58
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.2.0/AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.2.0/AndroidManifest.xml:20:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.2.0/AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.2.0/AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:9.2.0] /home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.2.0/AndroidManifest.xml:24:8-31
