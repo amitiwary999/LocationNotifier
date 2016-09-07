@@ -1,12 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" >
-
-    <item
-        jar="/home/amit/phimpme-android/Locationotifier/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        revision="24.0.2"
-        sha1="908e6f3ee64b70f7d8c7a43f68da09729c4f6662">
-        <dex dex="/home/amit/phimpme-android/Locationotifier/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_9528178e892614605f63520490bf496a247c0ae3/classes.dex" />
-    </item>
-
-</items>
+<items version="2" />

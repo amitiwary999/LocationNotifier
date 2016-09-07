@@ -83,14 +83,16 @@ public class MainActivity extends AppCompatActivity {
                 inputManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(),
                         InputMethodManager.HIDE_NOT_ALWAYS);
                 addrss=address.getText().toString();
-                if(addrss.length()!=0)
+                if(addrss.length()!=0) {
                     getlatlan(addrss);
+                    registerFences();
+                }
                 else
                     Toast.makeText(MainActivity.this,"Enter address",Toast.LENGTH_LONG).show();
 
             }
         });
-        btn1.setOnClickListener(new View.OnClickListener() {
+       /* btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 InputMethodManager inputManager = (InputMethodManager)
@@ -102,10 +104,10 @@ public class MainActivity extends AppCompatActivity {
                 if(addrss.length()==0){
                     Toast.makeText(MainActivity.this,"Enter address",Toast.LENGTH_LONG).show();
                 }
-                registerFences();
+               // registerFences();
                // registerReceiver(fenceReceiver, new IntentFilter(FENCE_RECEIVER_ACTION));
             }
-        });
+        });*/
 
     }
 
@@ -182,15 +184,9 @@ public class MainActivity extends AppCompatActivity {
         return false;
     }
 
-    public void notification(){
 
-        NotificationManager notificationManager = (NotificationManager)
-                getSystemService(NOTIFICATION_SERVICE);
-        Notification n= new Notification.Builder(this).setContentTitle("Destination notice")
-                .setContentText("1 km away from destination")
-                .setSmallIcon(R.drawable.places_ic_search).setAutoCancel(true).build();
-        notificationManager.notify(0,n);
-    }
+
+   
 
 }
 

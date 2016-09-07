@@ -4,30 +4,35 @@
     api-level="21"
     density="xhdpi"
     format="7"
-    timestamp="29646684556015"
+    timestamp="32183092774311"
     token="2331839944642032325" >
 
     <task
         name="javac"
-        duration="1494" />
+        duration="435" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="158" />
+        duration="88" />
     <task
         name="verifier"
-        duration="59" />
+        duration="9" />
 
     <artifact
-        location="/home/amit/phimpme-android/Locationotifier/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/home/amit/Locationotifier/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+        type="DEX" />
 
-    <build timestamp="29646684556015" >
+    <build timestamp="31328778226486" >
         <artifact
-            location="/home/amit/phimpme-android/Locationotifier/app/build/outputs/apk/app-debug.apk"
+            location="/home/amit/Locationotifier/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build timestamp="32183092774311" >
+        <artifact
+            location="/home/amit/Locationotifier/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

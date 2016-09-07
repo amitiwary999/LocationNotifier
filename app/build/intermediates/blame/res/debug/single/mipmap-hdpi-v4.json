@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/amit/Locationotifier/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_launcher.png",
+        "source": "/home/amit/Locationotifier/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/amit/phimpme-android/Locationotifier/app/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_launcher.png",
         "source": "/home/amit/phimpme-android/Locationotifier/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     }

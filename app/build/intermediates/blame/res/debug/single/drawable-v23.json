@@ -2,5 +2,9 @@
     {
         "merged": "/home/amit/phimpme-android/Locationotifier/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
         "source": "/home/amit/phimpme-android/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable-v23/abc_control_background_material.xml"
+    },
+    {
+        "merged": "/home/amit/Locationotifier/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
+        "source": "/home/amit/Locationotifier/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/drawable-v23/abc_control_background_material.xml"
     }
 ]
