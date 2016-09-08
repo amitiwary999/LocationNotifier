@@ -1,0 +1,5 @@
+CHANGED,/home/amit/Locationotifier/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/amit/locationotifier/MainActivity$2.class
+CHANGED,/home/amit/Locationotifier/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/amit/locationotifier/MainActivity$4.class
+CHANGED,/home/amit/Locationotifier/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/amit/locationotifier/MainActivity$1.class
+CHANGED,/home/amit/Locationotifier/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/amit/locationotifier/MainActivity$3.class
+CHANGED,/home/amit/Locationotifier/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/amit/locationotifier/MainActivity.class

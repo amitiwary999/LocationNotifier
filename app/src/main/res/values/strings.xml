@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Locationotifier</string>
+    <string name="alert"> May be you are offline or destination address is wrong</string>
+    <string name="fire">  Ok </string>
+    <string name="cancel">Cancel</string>
 </resources>

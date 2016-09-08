@@ -4,27 +4,28 @@
     api-level="21"
     density="xhdpi"
     format="7"
-    timestamp="32183092774311"
-    token="2331839944642032325" >
+    timestamp="15808892985874"
+    token="2331839944642032325"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="435" />
+        duration="1640" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="2823" />
     <task
         name="instant-run-transform"
-        duration="88" />
+        duration="167" />
     <task
         name="verifier"
-        duration="9" />
+        duration="33" />
 
     <artifact
-        location="/home/amit/Locationotifier/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
-        type="DEX" />
+        location="/home/amit/Locationotifier/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
-    <build timestamp="31328778226486" >
+    <build timestamp="15730453828808" >
         <artifact
             location="/home/amit/Locationotifier/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />

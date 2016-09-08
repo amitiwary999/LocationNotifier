@@ -1,9 +1,11 @@
 package com.example.amit.locationotifier;
 
 import android.Manifest;
+import android.app.Dialog;
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
+import android.app.ProgressDialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -11,9 +13,11 @@ import android.content.IntentFilter;
 import android.content.pm.PackageManager;
 import android.location.Address;
 import android.location.Geocoder;
+import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -62,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         address=(EditText) findViewById(R.id.address);
         ans=(TextView) findViewById(R.id.txta);
         btn=(Button)findViewById(R.id.button);
-        btn1=(Button)findViewById(R.id.button2);
+        //btn1=(Button)findViewById(R.id.button2);
         fenceReceiver = new HeadphoneFenceBroadcastReceiver();
         mGoogleApiClient = new GoogleApiClient.Builder(MainActivity.this)
                 .addApi(Awareness.API)
@@ -85,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
                 addrss=address.getText().toString();
                 if(addrss.length()!=0) {
                     getlatlan(addrss);
+                  
                     registerFences();
                 }
                 else
@@ -164,7 +169,8 @@ public class MainActivity extends AppCompatActivity {
                    // ans.setText(check);
                 }catch (IOException e){
                     e.printStackTrace();
-                    Toast.makeText(MainActivity.this,"Location not found...Write correct location",Toast.LENGTH_LONG).show();
+                    alert();
+                   // Toast.makeText(MainActivity.this,"you may be offline or destination place name is wrong",Toast.LENGTH_LONG).show();
 
                 }
             }
@@ -184,9 +190,27 @@ public class MainActivity extends AppCompatActivity {
         return false;
     }
 
+public void alert(){
+    AlertDialog.Builder builder =
+            new AlertDialog.Builder(this);
+    builder.setTitle(String.format("%1$s", getString(R.string.app_name)));
+    builder.setMessage(getResources().getText(R.string.alert));
+    builder.setPositiveButton("OK", null);
+    builder.setIcon(R.mipmap.ic_launcher);
+    AlertDialog welcomeAlert = builder.create();
+    welcomeAlert.show();
+}
+    public void timerDelayRemoveDialog(long time, final Dialog d){
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            public void run() {
+                d.dismiss();
+            }
+        }, time);
+    }
 
 
-   
+
 
 }
 
